@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './calender.css';
 
-const calender = () => {
+const Calender = () => {
   return (
-    <div>calender</div>
+    <div className='calendar'>Calender</div>
   )
 }
 
-export default calender
+export default Calender;

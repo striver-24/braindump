@@ -1,4 +1,7 @@
 import React from 'react';
+import Weather from './weather';
+import Calender from './calender';
+import './News.css';
 
 const News = () => {
   return (
@@ -14,7 +17,12 @@ const News = () => {
                 <div className='news-grid'>News Grid</div>
             </div>
             <div className='my-blogs'>My Blogs</div>
+            <div className='weather-calendar'>
+                <Weather />
+                <Calender />
+            </div>  
         </div>
+        <footer className="news-footer">Footer</footer>
     </div>
   )
 }

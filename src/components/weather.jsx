@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './weather.css';
 
-const weather = () => {
+const Weather = () => {
   return (
-    <div>weather</div>
+    <div className='weather'>Weather</div>
   )
 }
 
-export default weather
+export default Weather;
